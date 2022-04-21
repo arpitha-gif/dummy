@@ -1,0 +1,93 @@
+SQL
+-------------------
+
+1. Data
+2. Database
+3. Basic Operation performed on db
+4. Dbms
+5. RDBMS
+6. Relational model
+7. Rules of E.F codd
+8. Data types -- varchar --65535  char - 255
+9. constraints
+10. Overview of sql statements
+    a)DDL
+     -----
+     1. CREATE
+     2. ALTER
+     3. RENAME
+     4. TRUNCATE
+     5. DROP
+   
+    B)DML
+     -----
+     1. INSERT
+     2. UPDATE
+     3. DELETE
+   
+    C)DQL
+     -----
+     1. PROJECTION
+     2. SELECTION
+     3. JOINS
+
+11. Projection syntax
+    --> ORDER OF EXECUTION
+    --> Select clause queries
+12. Distinct clause
+13. Selection syntax
+    --> order of execution
+    --> where clause queries
+14. Operators
+    --> Arithmatic
+    --> Comparision 
+    --> Relational
+    --> Logical
+15. Logical operators
+16. Special operators
+    --> IN
+    --> NOT IN
+    --> BETWEEN
+    --> NOT BETWEEN
+    --> LIKE
+    --> NOT LIKE
+17. Functions
+18. Multi-row functions -- RULES
+    --> max
+    --> min
+    --> avg
+    --> sum
+    --> count
+    --> Queries
+19. Single-row functions (scalar functions)
+    --> upper
+    --> lower
+    --> length
+    --> reverse
+    --> concat
+    --> substr
+    --> INSTR
+    --> Queries
+20. GROUP BY Clause -- deptwise max sal
+21. Having clause
+22. Order by clause
+23. sub queries
+    When do we use subquery
+    1> Whenever we hv unknown
+    2> whenver data to be presented nd condition to be executed in 2 diff tables
+24. Types of subquery(ALL,ANY)
+25. Nested subquery (255)
+26. Joins
+   --> Cross join
+   --> Inner join
+   --> Outer join
+26. TRUNCATE (Truncate table tablename)
+27. TCL
+    --> COMMIT
+    --> ROLLBACK  (ROLLBACK TO SAVEPOINT_NAME)
+    --> SAVEPOINT (SAVEPOINT SAVEPOINT_NAME) 
+28. DCL
+   --> GRANT (GRANT SQL_STMT ON EMP TO HR )
+   --> REVOKE (REVOKE SQL_STMT ON EMP FROM HR)
+26. stored procedure
+27. Views
